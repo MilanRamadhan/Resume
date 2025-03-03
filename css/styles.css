@@ -1,0 +1,227 @@
+/********* TAG SELECTORS ********/
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #1e1e1e, #2a2a2a);
+  color: #e0e0e0;
+  line-height: 1.6;
+  text-align: center;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode {
+  background: #1e1e1e;
+  color: #e0e0e0;
+}
+
+/* Typography */
+h1,
+h2,
+h3 {
+  color: #00b4d8;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-size: 5.625rem;
+  line-height: 2;
+  margin: 50px auto 0;
+  font-family: "Sacramento", cursive;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+p {
+  line-height: 2;
+}
+
+/* Horizontal Rule */
+hr {
+  border: dotted #80d4f7 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+/* Links */
+a {
+  color: #00b4d8;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #80d4f7;
+}
+
+/********* CLASS SELECTORS ********/
+
+/* Profile Image */
+.profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ddd;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Containers */
+.top-container {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background: #0056b3;
+  padding: 50px 0 20px;
+}
+
+/* Layout */
+.web {
+  text-decoration: underline;
+}
+
+.intro,
+.contact-me {
+  margin: auto;
+}
+
+.intro {
+  width: 30%;
+  display: inline-block;
+}
+
+.contact-me {
+  width: 40%;
+  margin: 40px auto;
+  display: inline-block;
+}
+
+/* Footer */
+.copyright {
+  color: #80d4f7;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.footer-link {
+  color: #00b4d8;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #80d4f7;
+}
+
+/* Clouds */
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+/* Judul Skills */
+.skills h2 {
+  font-size: 2rem;
+  color: #00b4d8;
+  margin-bottom: 20px;
+}
+
+/* List Skill */
+.skill-list {
+  list-style: none; /* Menghilangkan bullet default */
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+/* Tampilan setiap skill */
+.skill-list li {
+  background: linear-gradient(135deg, #0077cc, #00b4d8);
+  color: white;
+  padding: 12px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+/* Efek Hover */
+.skill-list li:hover {
+  background: linear-gradient(135deg, #00b4d8, #80d4f7);
+  transform: scale(1.1);
+}
+
+/* Images in Skills Section */
+.idea-img,
+.gaming-img {
+  transition: transform 0.3s ease;
+}
+
+.idea-img {
+  float: left;
+  margin-right: 30px;
+}
+
+.gaming-img {
+  float: right;
+  margin-left: 30px;
+}
+
+.idea-img:hover,
+.gaming-img:hover {
+  transform: scale(1.1);
+}
+
+/* Buttons */
+.btn {
+  box-shadow: 0px 10px 14px -7px #dbdbdb;
+  background: linear-gradient(to bottom, #0056b3 5%, #0077cc 100%);
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-size: 20px;
+  padding: 13px 32px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff;
+  margin-top: 40px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: linear-gradient(to bottom, #0077cc 5%, #0056b3 100%);
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
+/********* ID SELECTORS ********/
+
+/* Tambahkan ID selector jika diperlukan */
